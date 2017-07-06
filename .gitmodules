@@ -1,0 +1,3 @@
+[submodule "ext/xcode-build-test-aaa"]
+	path = ext/xcode-build-test-aaa
+	url = github.com:omochi/xcode-build-test-aaa.git

@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		D6F1F22B1F0E167900A61981 /* ccc.c in Sources */ = {isa = PBXBuildFile; fileRef = D6F1F2291F0E167900A61981 /* ccc.c */; };
 		D6F1F22C1F0E167900A61981 /* ccc.h in Headers */ = {isa = PBXBuildFile; fileRef = D6F1F22A1F0E167900A61981 /* ccc.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6F1F22F1F0E16BB00A61981 /* libaaa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1F22E1F0E16BB00A61981 /* libaaa.a */; };
+		D6F1F2311F0E17A400A61981 /* libaaa.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F1F2301F0E17A400A61981 /* libaaa.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +17,7 @@
 		D6F1F2291F0E167900A61981 /* ccc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccc.c; path = ../../src/ccc.c; sourceTree = "<group>"; };
 		D6F1F22A1F0E167900A61981 /* ccc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ccc.h; path = ../../src/ccc.h; sourceTree = "<group>"; };
 		D6F1F22E1F0E16BB00A61981 /* libaaa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libaaa.a; path = "../../../xcode-build-test-aaa/project/aaa/build/Debug/libaaa.a"; sourceTree = "<group>"; };
+		D6F1F2301F0E17A400A61981 /* libaaa.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libaaa.a; path = "../../../../../Library/Developer/Xcode/DerivedData/ccc-abmjdxsnwqpweiffabvgesiurony/Build/Products/Debug/libaaa.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,7 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6F1F22F1F0E16BB00A61981 /* libaaa.a in Frameworks */,
+				D6F1F2311F0E17A400A61981 /* libaaa.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +61,7 @@
 		D6F1F22D1F0E16BB00A61981 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D6F1F2301F0E17A400A61981 /* libaaa.a */,
 				D6F1F22E1F0E16BB00A61981 /* libaaa.a */,
 			);
 			name = Frameworks;
